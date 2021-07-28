@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    font-family: vogue;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+}
+
+
+body{
+    cursor: url("../img/souris/fish3.png"), pointer ;
+   
+   
+  }
+/* font et img resp */
+
+
+.imgresp{
+    width: 100%;
+    height: auto;
+}
+
+/* text */
+
+.textresp{
+    width: 100%;
+    height: auto;
+
+}
+
+p{
+    font-family:  vogue;
+}
+
+
+@font-face {
+        font-family: Naughty;
+        src: url(../font/NaughtyMonster.ttf);
+
+        font-family:robert;
+        src: url(../font/Rodrigues_PERSONAL_USE_ONLY.otf);
+
+        font-family: rainbow;
+        src: url(../font/Rainbow\ Bridge\ Personal\ Use.ttf);
+
+        font-family: vogue;
+        src: url(../font/Vogue.ttf);
+
+    }
+
+li{
+    list-style: none;
+}
+
+/* HEADER */
+header{
+    background-image: url(../img/gif/comp/iloveimg-compressed/8ec09d809e350a3b3decfca4c0b8406b.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;   
+    }
+
+a{
+    text-decoration: none;
+    }
+
+header ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 800% 400%;
+
+  animation: gradient 19s ease infinite;
+  
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.logo-white{
+    width: 20%;
+    height: auto;
+   
+    top: 10px;
+    
+    
+}
+.scotch{
+
+    width: 8%;
+    position: fixed;
+    height: auto;
+    top: 50px;
+
+    
+    
+    
+}
+
+
+
+/* SECTION 1 */
+
+
+#liveTour h2{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 30px;
+ 
+    
+}
+   
+   
+
+
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.text1  p{
+    width: 20%;
+    padding-right: 20%;
+    
+}
+
+.guitare{
+    width: 46%;
+}
+
+.img-guitare{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.guit{
+    width: 20%;
+    padding: 20px;
+}
+
+/* SECTION 2 */
+
+#section2{
+    background-color: #2f3640;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.text2{
+    width: 40%;
+}
+
+.text2 p{
+    text-align: center;
+    color: #81ecec;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+.button{
+   
+    color: #bc66fe;
+   
+    
+    text-align: center;
+    
+    transition: all ease 1s;
+    font-size: 80px;
+ 
+}
+
+.button a{
+    padding-top: 25px;
+    font-size: 35px;
+    
+}
+
+.album3{
+    width: 25%;
+}
+
+
+
+/* SECTION 3 */
+
+#section3 > h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.discorgraphy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.album{
+    width: 20%;
+}
+
+.discorgraphy2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.album2{
+    width: 20%;
+}
+
+/* SECTION 4 */
+
+#news{
+    padding-top: 10vh;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.text3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    margin-left: 30px;
+    
+}
+
+.text3 p{
+    width: 25%;
+}
+
+#img-group2{
+    width: 35%;
+}
+
+.text4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.img-group4{
+    width: 20%;
+}
+
+.text4 p{
+    width: 25%;
+}
+
+/* footer */
+
+.fond{
+    background-color: grey;
+    background: linear-gradient(-45deg, #ee7752, #ee75a4, #23a6d5, #23d5ab);
+  background-size: 800% 400%;
+  animation: gradient 10s ease infinite;}
+
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#foot{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.img-foot{
+    width: 10%;
+    padding-right: -70px;
+}
+
+#reseaux{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-foot1, .img-foot2{
+    width: 10%;
+    padding-left: 10%;
+
+    
+}
+
+
+/* fx section */
+
+/* GLITCH EFFECT */
+
+.GlitchBuddy{
+
+    
+    font-family:  vogue;
+    font-weight: bold;
+    color: black;
+    animation: glitch 2s steps(100) infinite;
+
+}
+ /* GLITCH EFFECT */
+@keyframes glitch {
+    0% {text-shadow: 1px 0 0 red, -1px 0 0 blue;}
+    4% {text-shadow: 1px 0 0 red, -1px 0 0 blue;}
+    5% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    10% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    11% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;}
+    15% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;}
+    16% {text-shadow: -1px 0 0 red, 1px 0 0 lime;}
+    20% {text-shadow: -1px 0 0 red, 1px 0 0 lime;}
+    21% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;}
+    30% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;}
+    31% {text-shadow: -1px 0 0 blue, 1px 0 0 lime;}
+    40% {text-shadow: -1px 0 0 blue, 1px 0 0 lime;}
+    41% {text-shadow: 50px 0 0 blue, -50px 0 0 lime;}
+    42% {text-shadow: 0 0 0 blue, 0 0 0 lime;}
+    43% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;}
+    46% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;}
+    47% {text-shadow: -1px 0 0 red, 1px 0 0 lime;}
+    50% {text-shadow: -1px 0 0 red, 1px 0 0 lime;}
+    51% {text-shadow: 1px 0 0 red, -1px 0 0 blue;}
+    55% {text-shadow: 1px 0 0 red, -1px 0 0 blue;}
+    56% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    60% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    61% {text-shadow: 30px 0 0 red, -30px 0 0 lime;}
+    62% {text-shadow: 0 0 0 red, 0 0 0 lime;}
+    63% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;}
+    66% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;}
+    67% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    70% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    71% {text-shadow: 70px 0 0 red, -70px 0 0 blue;}
+    72% {text-shadow: 0 0 0 red, 0 0 0 blue;}
+    73% {text-shadow: 1px 0 0 red, -1px 0 0 blue;}
+    76% {text-shadow: 1px 0 0 red, -1px 0 0 blue;}
+    77% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    80% {text-shadow: -1px 0 0 red, 1px 0 0 blue;}
+    81% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;}
+    85% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;}
+    86% {text-shadow: -1px 0 0 red, 1px 0 0 lime;}
+    90% {text-shadow: -1px 0 0 red, 1px 0 0 lime;}
+    91% {text-shadow: 60px 0 0 lime, -60px 0 0 blue;}
+    92% {text-shadow: 0 0 0 lime, 0 0 0 blue;}
+    92% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;}
+    95% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;}
+    96% {text-shadow: -1px 0 0 blue, 1px 0 0 lime;}
+    99% {text-shadow: -1px 0 0 blue, 1px 0 0 lime;}
+    100% {text-shadow: -1px 0 0 blue, 1px 0 0 lime;}
+  }
+
+
+  /* curseur */
+
+  #logoCursor{
+    cursor: url("../img/logo\ find\ the\ rose.png"), auto;
+    }
+
+
+
+    /* carouselle  */
+
+    .gallery {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(10, 80vw);
+        grid-template-rows: 1fr;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        overflow: scroll;
+        height: auto;
+        scroll-snap-type: both mandatory;
+        scroll-padding: 1rem;
+    }
+    
+    .active {
+        scroll-snap-type: unset;
+    }
+    
+    .galerry li {
+        scroll-snap-align: center;
+        display: inline-block;
+        border-radius: 3px;
+        font-size: 0;
+    }
+    

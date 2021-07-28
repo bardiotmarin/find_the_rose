@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    font-family: Naughty;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+}
+
+@font-face {
+        font-family: Naughty;
+        src: url(../font/NaughtyMonster.ttf);
+    }
+
+.imgresp{
+    width: 100%;
+    height: auto;
+}
+
+/* text */
+
+.textresp{
+    width: 100%;
+    height: auto;
+
+}
+
+/* HEADER */
+header{
+    background-image: url(../img/gif/8ec09d809e350a3b3decfca4c0b8406b.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+
+
+
+ul{
+    background-color: #2c0727fd;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+}
+
+
+.logo-white{
+    width: 20%;
+    height: auto;
+    
+    top: 10px;
+    
+    
+}
+.scotch{
+
+    width: 8%;
+    position: fixed;
+    height: auto;
+    top: 60px;
+    
+    
+}
+
+
+
+/* SECTION 1 */
+
+
+#liveTour h2{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.text1  p{
+    width: 20%;
+    padding-right: 20%;
+    
+}
+
+.guitare{
+    width: 46%;
+}
+
+.img-guitare{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.guit{
+    width: 20%;
+    padding: 20px;
+}
+
+/* SECTION 2 */
+
+#section2{
+    background-color: #2f3640;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.text2{
+    width: 40%;
+}
+
+.text2 p{
+    text-align: center;
+    color: #81ecec;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.button{
+    background-color: #cc1eb580;
+    color: #81ecec;
+    height: 70px;
+    box-shadow:2px 2px 5px black ;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 2px blue;
+    transition: all ease 1s;
+}
+
+.button p{
+    padding-top: 25px;
+    font-size: 35px;
+    
+}
+
+.album3{
+    width: 25%;
+}
+
+/* SECTION 3 */
+
+#section3 > h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.discorgraphy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.album{
+    width: 20%;
+}
+
+.discorgraphy2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.album2{
+    width: 20%;
+}
+
+/* SECTION 4 */
+
+#news{
+    padding-top: 10vh;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.text3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    margin-left: 30px;
+}
+
+.text3 p{
+    width: 25%;
+}
+
+#img-group2{
+    width: 35%;
+}
+
+.text4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.img-group4{
+    width: 20%;
+}
+
+.text4 p{
+    width: 25%;
+}
+
+/* footer */
+
+.fond{
+    background-color: grey;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.img-foot{
+    width: 10%;
+    padding-right: -70px;
+}
+
+#reseaux{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-foot1, .img-foot2{
+    width: 10%;
+    padding-left: 10%;
+
+    
+}
+
+
+
+
+
+/* carusell */
+body {
+	align-items: center;
+	background: #E3E3E3;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+// Styling
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 960px;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+}
